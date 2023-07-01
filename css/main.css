@@ -1,0 +1,34 @@
+.profile_pic{
+    width: 180px;
+    height: 200px;
+    border-radius: 45%;
+    box-shadow: #8D8741 3px 6px 5px;
+}
+.site-header-text{
+    margin: 10px;
+}
+.site-header{
+    background-color: #ac8756;
+    color: #e2d9ba;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.course{
+    color: #e2d9ba;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.course:hover{
+    color: #ffcc00;
+    text-decoration: underline;
+}
+body{
+    margin: 0;
+}
